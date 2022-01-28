@@ -3,9 +3,11 @@
 ## Prepare
 - [x] Create private GitHub repository FE15-CR3-Sedlaczek
 - [x] Clearly separate CSS, JavaScript and images in distinct folders (css, js, img)
-- [ ] Create Task List from Project requirements
-- [ ] Research festival images on Pixabay 
-- [ ] Link FontAwesome CSS for Hero Icons
+- [x] Create Task List from Project requirements
+- [x] Research festival images on Pixabay
+- [x] Search template images on Unsplash
+- [x] Link FontAwesome CSS for Hero Icons
+- [x] Link Bootstrap 5 CSS & JS from CDN
 
 ## Design
 - [ ] Create festival website where different bands are playing at different times
