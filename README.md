@@ -37,16 +37,16 @@
     - [ ] Event date
     - [ ] Event price
   - [ ] 1 subsection with contact form
-  - [ ] footer
+  - [ ] Footer
 - [ ] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
-  - [ ] bands subsections 
-    - [ ] 3 cols (lg)
-    - [ ] 2 cols (md)
-    - [ ] 1 col (sm/xs)
-  - [ ] contact section
-    - [ ] 2 cols (lg)
-    - [ ] 1 col with picture on top (md)
-    - [ ] 1 col with no picture (sm)
+  - [ ] Bands subsections 
+    - [ ] lg: 3 cols
+    - [ ] md: 2 cols
+    - [ ] sm/xs: 1 col
+  - [ ] Contact section
+    - [ ] lg: 2 cols (lg)
+    - [ ] md: 1 col with picture on top
+    - [ ] sm: 1 col with no picture
 
 ### Design Bonus
 - [ ] Optionally improve and expand the design of the band cards
