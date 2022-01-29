@@ -1,7 +1,7 @@
 # FE15-CR3-Sedlaczek
 
 ## Prepare
-- [x] Create private GitHub repository FE15-CR3-Sedlaczek
+- [x] Create private GitHub repository (FE15-CR3-Sedlaczek)
 - [x] Clearly separate CSS, JavaScript and images in distinct folders (css, js, img)
 - [x] Create Task List from Project requirements
 - [x] Research festival images on Pixabay
@@ -10,46 +10,45 @@
 - [x] Link Bootstrap 5 CSS & JS from CDN
 
 ## Design
-- [ ] Create festival website where different bands are playing at different times
+- [x] Create festival website with different bands playing at different times
 - [ ] Correct usage of HTML structure, proper order of HTML elements
 - [ ] Correct CSS layout according to provided design
-  - [ ] Navbar
+  - [x] Navbar
     - [ ] Logo
-    - [ ] Home
-    - [ ] About us
-    - [ ] Concerts
-    - [ ] Contact us
-    - [ ] Buy a ticket
-  - [ ] Festival hero section
+    - [x] Home
+    - [x] About us
+    - [x] Concerts
+    - [x] Contact us
+    - [x] Buy a ticket
+  - [x] Festival hero section
     - [ ] Hero image
-    - [ ] Festival name
-    - [ ] Number of seats
-    - [ ] Number of artists
-    - [ ] Festival location
-    - [ ] Book now button
-  - [ ] 3 stages subsections listing bands
-    - [ ] Stage 1
-    - [ ] Stage 2
-    - [ ] Stage 3
-  - [ ] Cards for each band
-    - [ ] Event Name
-    - [ ] Event description
-    - [ ] Event date
-    - [ ] Event price
+    - [x] Festival name (World Music Festival)
+    - [x] Number of seats (5000 seats)
+    - [x] Number of artists (12 artists)
+    - [x] Festival location (Vienna, Austria)
+    - [x] Book now button
+  - [x] 3 stages subsections listing bands
+    - [x] Stage 1
+    - [x] Stage 2
+    - [x] Stage 3
+  - [x] Cards for each band
+    - [x] Event Name
+    - [x] Event description
+    - [x] Event date
+    - [x] Event price
   - [ ] 1 subsection with contact form
-  - [ ] Footer
+  - [x] Footer
 - [ ] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
   - [ ] Bands subsections 
     - [ ] lg: 3 cols
     - [ ] md: 2 cols
     - [ ] sm/xs: 1 col
   - [ ] Contact section
-    - [ ] lg: 2 cols (lg)
+    - [ ] lg: 2 cols
     - [ ] md: 1 col with picture on top
     - [ ] sm: 1 col with no picture
 
 ### Design Bonus
-- [ ] Optionally improve and expand the design of the band cards
 - [ ] Create review page with customer reviews
   - [ ] Design complementing the index page
   - [ ] Accessible from index page (navbar/footer)
