@@ -11,17 +11,17 @@
 
 ## Design
 - [x] Create festival website with different bands playing at different times
-- [ ] Correct usage of HTML structure, proper order of HTML elements
-- [ ] Correct CSS layout according to provided design
+- [x] Correct usage of HTML structure, proper order of HTML elements
+- [x] Correct CSS layout according to provided design
   - [x] Navbar
-    - [ ] Logo
+    - [x] Logo
     - [x] Home
     - [x] About us
     - [x] Concerts
     - [x] Contact us
     - [x] Buy a ticket
   - [x] Festival hero section
-    - [ ] Hero image
+    - [x] Hero image
     - [x] Festival name (World Music Festival)
     - [x] Number of seats (5000 seats)
     - [x] Number of artists (12 artists)
@@ -36,7 +36,7 @@
     - [x] Event description
     - [x] Event date
     - [x] Event price
-  - [ ] 1 subsection with contact form
+  - [x] 1 subsection with contact form
   - [x] Footer
 - [ ] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
   - [ ] Bands subsections 
@@ -54,25 +54,25 @@
   - [ ] Accessible from index page (navbar/footer)
 
 ## JavaScript
-- [ ] Create 9 variables for each band prices (input manually)
-- [ ] Use variables as arguments passed to function calculateInvoice()
-- [ ] Create function calculateInvoice()
-  - [ ] 3 parameters, price for 1 band from each stage
-  - [ ] Calculate and return sum of 3 parameters
-  - [ ] Print result of function in console
-- [ ] Calculate at least 3 invoices from combinations of different events and print to console
+- [x] Create 9 variables for each band prices (input manually)
+- [x] Use variables as arguments passed to function calculateInvoice()
+- [x] Create function calculateInvoice()
+  - [x] 3 parameters, price for 1 band from each stage
+  - [x] Calculate and return sum of 3 parameters
+  - [x] Print result of function in console
+- [x] Calculate at least 3 invoices from combinations of different events and print to console
 
 ### JavaScript Bonus
-- [ ] Create function studentInvoice()
-  - [ ] Apply 10% discount to final invoice
-  - [ ] Use same parameters as calculateInvoice()
-- [ ] Print 3 examples of studentInvoice() on console
+- [x] Create function studentInvoice()
+  - [x] Apply 10% discount to final invoice
+  - [x] Use same parameters as calculateInvoice()
+- [x] Print 3 examples of studentInvoice() on console
 
 ## Finish
 - [ ] Check website design against template image guide
 - [ ] Test page responsiveness on desktop, tablet and mobile
-- [ ] Test JavaScript console output
-- [ ] Format documents in Visual Studio Code
+- [x] Test JavaScript console output
+- [x] Format documents in Visual Studio Code
 - [ ] Push files to GitHub repository
 - [ ] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
