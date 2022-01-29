@@ -1,0 +1,37 @@
+body {
+  padding-top: 60px;
+}
+
+.hero-image {
+  background-image: url("../img/rachel-coyne-U7HLzMO4SIY-unsplash.jpg");
+  height: 35vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fas {
+  color: green;
+}
+
+.max-w {
+  max-width: 1100px;
+}
+
+.event img {
+  height: 35vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.event {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.side {
+  height: 75%;
+}
+/*# sourceMappingURL=style.css.map */
