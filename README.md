@@ -39,13 +39,13 @@
   - [x] 1 subsection with contact form
   - [x] Footer
 - [ ] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
-  - [ ] Bands subsections 
-    - [ ] lg: 3 cols
+  - [x] Bands subsections 
+    - [x] lg: 3 cols
     - [ ] md: 2 cols
-    - [ ] sm/xs: 1 col
-  - [ ] Contact section
-    - [ ] lg: 2 cols
-    - [ ] md: 1 col with picture on top
+    - [x] sm/xs: 1 col
+  - [x] Contact section
+    - [x] lg: 2 cols
+    - [x] md: 1 col with picture on top
     - [ ] sm: 1 col with no picture
 
 ### Design Bonus
@@ -69,12 +69,12 @@
 - [x] Print 3 examples of studentInvoice() on console
 
 ## Finish
-- [ ] Check website design against template image guide
-- [ ] Test page responsiveness on desktop, tablet and mobile
+- [x] Check website design against template image guide
+- [x] Test page responsiveness on desktop, tablet and mobile
 - [x] Test JavaScript console output
 - [x] Format documents in Visual Studio Code
-- [ ] Push files to GitHub repository
-- [ ] Send repository link through LMS
+- [x] Push files to GitHub repository
+- [x] Send repository link through LMS
 - [ ] Invite codefactorygit as collaborator
 
 Work time: hrs
