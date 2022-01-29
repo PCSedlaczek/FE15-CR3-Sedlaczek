@@ -1,13 +1,17 @@
 // Create 9 variables for each band prices (input manually)
-var band1 = 140;
-var band2 = 20;
-var band3 = 249;
-var band4 = 140;
-var band5 = 20;
-var band6 = 249;
-var band7 = 140;
-var band8 = 20;
-var band9 = 249;
+var tier1 = 20;
+var tier2 = 140;
+var tier3 = 249;
+
+var band1 = tier2;
+var band2 = tier1;
+var band3 = tier3;
+var band4 = tier2;
+var band5 = tier1;
+var band6 = tier3;
+var band7 = tier2;
+var band8 = tier1;
+var band9 = tier3;
 
 // Create function calculateInvoice()
   // Use variables as arguments passed to function calculateInvoice()
