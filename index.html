@@ -29,6 +29,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="#">About us</a>
             <a class="nav-link" href="#">Concerts</a>
+            <a class="nav-link" href="reviews.html">Reviews</a>
             <a class="nav-link" href="#">Contact us</a>
             <button class="btn btn-success btn-sm" type="button">Buy a ticket</button>
           </div>
@@ -37,377 +38,411 @@
     </nav>
 
     <!-- Hero image -->
-    <section class="hero-image position-relative">
+    <section class="hero-image position-relative container-fluid">
       <div class="position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="mb-4">World Music Festival</h1>
-        <div class="d-flex justify-content-center fs-6 mb-4">
-          <div class="px-2"><i class="fas fa-sm fa-chair"></i> 5000 seats</div>
-          <div class="px-2"><i class="fas fa-sm fa-user"></i> 12 artists</div>
-          <div class="px-2"><i class="fas fa-sm fa-map-marker-alt"></i> Vienna, Austria</div>
+        <h1 class="mb-3">World Music Festival</h1>
+        <div class="row g-0 gy-1 mb-4 small">
+          <div class="col col-6 col-md-4"><i class="fas fa-sm fa-chair"></i> 5000 seats</div>
+          <div class="col col-6 col-md-3"><i class="fas fa-sm fa-user"></i> 12 artists</div>
+          <div class="w-100 d-sm-block d-md-none"></div>
+          <div class="col col-12 col-md-5"><i class="fas fa-sm fa-map-marker-alt"></i> Vienna, Austria</div>
         </div>
-        <button class="btn btn-sm btn-success mt-3 ">Book now</button>
+        <button class="btn btn-sm btn-success">Book now</button>
       </div>
     </section>
-
-    <!-- <div class="card bg-dark text-white">
-      <img src="img/rachel-coyne-U7HLzMO4SIY-unsplash.jpg" class="card-img" alt="World Music Festival">
-      <div class="card-img-overlay">
-        <div class="position-absolute top-50 start-50 translate-middle text-center">
-          <h1>World Music Festival</h1>
-          <div class="d-flex justify-content-center fs-6">
-            <div class="px-2"><i class="fas fa-sm fa-chair"></i> 5000 seats</div>
-            <div class="px-2"><i class="fas fa-sm fa-user"></i> 12 artists</div>
-            <div class="px-2"><i class="fas fa-sm fa-map-marker-alt"></i> Vienna, Austria</div>
-          </div>
-          <button class="btn btn-success mt-3 ">Book now</button>
-        </div>
-      </div>
-    </div> -->
 
   </header>
 
   <!-- Main Content -->
-  <main class="container max-w">
+  <main>
+    <div class="max-w mx-auto">
 
-    <!-- Stage 1 -->
-    <section id="stage1" class="row justify-content-center position-relative">
-      <h2 class="mb-4 mt-5">Stage 1</h1>
-
-        <div class="card-group">
+      <!-- Stage 1 -->
+      <section id="stage1" class="container-lg">
+        <h2 class="my-4">Stage 1</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
 
           <!-- Stage 1 | Event 1 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/stephen-leonardi-wbkqzanqc4U-unsplash.jpg" class="card-img-top img-fluid"
-              alt="Stage 1 | Event 1" title="Stephen Leonardi | Unsplash">
+          <div id="band1" class="col">
+            <div class="card event h-100">
+              <img class="card-img-top img-fluid" alt="Stage 1 | Event 1"
+                src="img/stephen-leonardi-wbkqzanqc4U-unsplash.jpg" title="Stephen Leonardi | Unsplash">
 
-            <div class="d-flex card-body align-items-center">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 1 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $140</small>
+              <div class="row card-body align-items-center">
+                <!-- Event Date -->
+                <div id="card-date" class="col col-2 text-center">
+                  <p class="mb-0 text-success">Jan</p>
+                  <p>31</p>
                 </div>
-              </div>
 
+                <!-- Event Description -->
+                <div class="col lh-sm px-2">
+                  <h5 class="card-title">Event Name</h5>
+                  <p class="card-text small">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Impedit
+                    sunt rerum quo laboriosam ratione illo
+                    et hic tempora corporis quas mollitia,
+                    iste provident, ea sapiente expedita
+                    laborum aliquam accusantium natus!
+                  </p>
+                  <!-- Event 1 Price -->
+                  <div class="card-footer bg-white px-0">
+                    <small>Price: $140</small>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
           <!-- Stage 1 | Event 2 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/elizeu-dias-aZ3qiq1eTRk-unsplash.jpg" class="card-img-top" alt="Stage 1 | Event 2"
-              title="Elizeu Dias | Unsplash">
+          <div id="band2" class="col">
+            <div class="card event h-100">
+              <img class="card-img-top img-fluid" alt="Stage 1 | Event 2" src="img/elizeu-dias-aZ3qiq1eTRk-unsplash.jpg"
+                title="Elizeu Dias | Unsplash">
 
-            <div class="d-flex card-body align-items-center border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 2 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $20</small>
+              <div class="row card-body align-items-center">
+                <!-- Event Date -->
+                <div id="card-date" class="col col-2 text-center">
+                  <p class="mb-0 text-success">Jan</p>
+                  <p>31</p>
                 </div>
-              </div>
 
+                <!-- Event Description -->
+                <div class="col lh-sm px-2">
+                  <h5 class="card-title">Event Name</h5>
+                  <p class="card-text small">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Impedit
+                    sunt rerum quo laboriosam ratione illo
+                    et hic tempora corporis quas mollitia,
+                    iste provident, ea sapiente expedita
+                    laborum aliquam accusantium natus!
+                  </p>
+                  <!-- Event 2 Price -->
+                  <div class="card-footer bg-white px-0">
+                    <small>Price: $20</small>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
 
           <!-- Stage 1 | Event 3 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/austin-neill-hgO1wFPXl3I-unsplash.jpg" class="card-img-top" alt="Stage 1 | Event 3"
-              title="Austin Neill | Unsplash">
+          <div id="band3" class="col">
+            <div class="card event h-100">
+              <img class="card-img-top img-fluid" alt="Stage 1 | Event 3"
+                src="img/austin-neill-hgO1wFPXl3I-unsplash.jpg" title="Austin Neill | Unsplash">
 
-            <div class="d-flex card-body align-items-center  border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 3 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $249</small>
+              <div class="row card-body align-items-center">
+                <!-- Event Date -->
+                <div id="card-date" class="col col-2 text-center">
+                  <p class="mb-0 text-success">Jan</p>
+                  <p>31</p>
                 </div>
-              </div>
 
+                <!-- Event Description -->
+                <div class="col lh-sm px-2">
+                  <h5 class="card-title">Event Name</h5>
+                  <p class="card-text small">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Impedit
+                    sunt rerum quo laboriosam ratione illo
+                    et hic tempora corporis quas mollitia,
+                    iste provident, ea sapiente expedita
+                    laborum aliquam accusantium natus!
+                  </p>
+                  <!-- Event 3 Price -->
+                  <div class="card-footer bg-white px-0">
+                    <small>Price: $249</small>
+                  </div>
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
 
         <!-- Load more button -->
-        <div class="col-12 text-center">
-          <button class="btn btn-secondary my-4">Load more</button>
-        </div>
-        
-    </section>
-
-    <!-- Stage 2 -->
-    <section id="stage2" class="row justify-content-center position-relative">
-      <h2 class="my-4">Stage 2</h1>
-
-        <div class="card-group">
-
-          <!-- Stage 2 | Event 1 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/melanie-van-leeuwen-QA-qQfWJM0E-unsplash.jpg" class="card-img-top img-fluid"
-              alt="Stage 2 | Event 1" title="Melanie van Leeuwen | Unsplash">
-            <div class="d-flex card-body align-items-center">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 1 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $140</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Stage 2 | Event 2 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/vidar-nordli-mathisen-EBbjmyCyY1w-unsplash.jpg" class="card-img-top img-fluid"
-              alt="Stage 2 | Event 2" title="Vidar Nordli-Mathisen | Unsplash">
-            <div class="d-flex card-body align-items-center border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 2 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $20</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Stage 2 | Event 3 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/kevin-britos-PHYgBreyeYc-unsplash.jpg" class="card-img-top img-fluid" alt="Stage 2 | Event 3"
-              title="Kevin Britos | Unsplash">
-            <div class="d-flex card-body align-items-center border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 3 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $249</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
+        <div class="col text-center">
+          <button class="btn btn-secondary my-5">Load more</button>
         </div>
 
-        <!-- Load more button -->
-        <div class="col-12 text-center">
-          <button class="btn btn-secondary my-4">Load more</button>
-        </div>
-    </section>
+      </section>
 
-    <!-- Stage 3 -->
-    <section id="stage3" class="row justify-content-center position-relative">
-      <h2 class="my-4">Stage 3</h1>
+      <!-- Stage 2 -->
+      <section id="stage2" class="container-lg">
+        <h2 class="my-4">Stage 2</h1>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
 
-        <div class="card-group">
+            <!-- Stage 2 | Event 1 -->
+            <div id="band4" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 2 | Event 1"
+                  src="img/melanie-van-leeuwen-QA-qQfWJM0E-unsplash.jpg" title="Melanie van Leeuwen | Unsplash">
 
-          <!-- Stage 3 | Event 1 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/luke-thornton-JNl7o-Mj2cc-unsplash.jpg" class="card-img-top img-fluid" alt="Stage 3 | Event 1"
-              title="Luke Thornton | Unsplash">
-            <div class="d-flex card-body align-items-center">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 1 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $140</small>
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 1 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $140</small>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Stage 3 | Event 2 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/vidar-nordli-mathisen-iTOq8vZkVEY-unsplash.jpg" class="card-img-top img-fluid"
-              alt="Stage 3 | Event 2" title="Vidar Nordli-Mathisen | Unsplash">
-            <div class="d-flex card-body align-items-center border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 2 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $20</small>
+            <!-- Stage 2 | Event 2 -->
+            <div id="band5" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 2 | Event 2"
+                  src="img/vidar-nordli-mathisen-EBbjmyCyY1w-unsplash.jpg" title="Vidar Nordli-Mathisen | Unsplash">
+
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 2 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $20</small>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
-          </div>
 
-          <!-- Stage 3 | Event 3 -->
-          <div class="card event col-lg-3 col-md-5 flex-md-wrap col-sm-10 mx-2 my-3">
-            <img src="img/chris-ainsworth-PrHiELDQjtg-unsplash.jpg" class="card-img-top img-fluid"
-              alt="Stage 3 | Event 3" title="Chris Ainsworth | Unsplash">
-            <div class="d-flex card-body align-items-center border-start">
-              <!-- Event Date -->
-              <div class="ps-2 pe-4 text-center">
-                <p class="mb-0 text-success">Jan</p>
-                <p>31</p>
-              </div>
-              <!-- Event Description -->
-              <div class="lh-sm pe-3">
-                <h5 class="card-title">Event Name</h5>
-                <p class="card-text small">
-                  Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Impedit
-                  sunt rerum quo laboriosam ratione illo
-                  et hic tempora corporis quas mollitia,
-                  iste provident, ea sapiente expedita
-                  laborum aliquam accusantium natus!
-                </p>
-                <!-- Event 3 Price -->
-                <div class="card-footer bg-white px-0 mt-2">
-                  <small>Price: $249</small>
+            <!-- Stage 2 | Event 3 -->
+            <div id="band6" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 2 | Event 3"
+                  src="img/kevin-britos-PHYgBreyeYc-unsplash.jpg" title="Kevin Britos | Unsplash">
+
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 3 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $249</small>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
+
           </div>
 
-        </div>
+          <!-- Load more button -->
+          <div class="col text-center">
+            <button class="btn btn-secondary my-5">Load more</button>
+          </div>
+      </section>
 
-        <!-- Load more button -->
-        <div class="col-12 text-center">
-          <button class="btn btn-secondary my-4">Load more</button>
-        </div>
-    </section>
+      <!-- Stage 3 -->
+      <section id="stage3" class="container-lg">
+        <h2 class="my-4">Stage 3</h1>
 
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+
+            <!-- Stage 3 | Event 1 -->
+            <div id="band7" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 3 | Event 1"
+                  src="img/luke-thornton-JNl7o-Mj2cc-unsplash.jpg" title="Luke Thornton | Unsplash">
+
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 1 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $140</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Stage 3 | Event 2 -->
+            <div id="band8" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 3 | Event 2"
+                  src="img/vidar-nordli-mathisen-iTOq8vZkVEY-unsplash.jpg" title="Vidar Nordli-Mathisen | Unsplash">
+
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 2 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $20</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Stage 3 | Event 3 -->
+            <div id="band9" class="col">
+              <div class="card event h-100">
+                <img class="card-img-top img-fluid" alt="Stage 3 | Event 3"
+                  src="img/chris-ainsworth-PrHiELDQjtg-unsplash.jpg" title="Chris Ainsworth | Unsplash">
+
+                <div class="row card-body align-items-center">
+                  <!-- Event Date -->
+                  <div id="card-date" class="col col-2 text-center">
+                    <p class="mb-0 text-success">Jan</p>
+                    <p>31</p>
+                  </div>
+
+                  <!-- Event Description -->
+                  <div class="col lh-sm px-2">
+                    <h5 class="card-title">Event Name</h5>
+                    <p class="card-text small">
+                      Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Impedit
+                      sunt rerum quo laboriosam ratione illo
+                      et hic tempora corporis quas mollitia,
+                      iste provident, ea sapiente expedita
+                      laborum aliquam accusantium natus!
+                    </p>
+                    <!-- Event 3 Price -->
+                    <div class="card-footer bg-white px-0">
+                      <small>Price: $249</small>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Load more button -->
+          <div class="col text-center">
+            <button class="btn btn-secondary my-5">Load more</button>
+          </div>
+      </section>
+    </div>
+    </div>
   </main>
 
   <!-- Contact section -->
-  <section class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-5 col-md-10 my-1">
-        <h2 class="mb-4">Get in touch</h2>
-        <img class="side img-fluid d-md-block d-sm-none d-xs-none" src="img/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Stage 1 | Event 3"
-          title="Austin Neill | Unsplash">
-      </div>
-      <div class="col-lg-5 col-md-10 my-1">
-        <!-- Contact form -->
-        <form class="pt-2">
-          <div class="mb-3">
-            <label for="exampleInputEmail" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
-              placeholder="Enter email">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputName" class="form-label">Name</label>
-            <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  <section id="contact" class="bg-light">
+    <div class="max-w mx-auto">
+      <div class="container">
+
+        <div class="row">
+          <h2 class="my-3 py-3">Get in touch</h2>
+
+          <div class="col-xl-6 col-lg-7 col-md-12">
+            <!-- Image hidden on small -->
+            <img class="img-fluid d-none d-md-block my-1" src="img/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+              alt="Stage 1 | Event 3" title="Austin Neill | Unsplash">
           </div>
 
-          <button type="submit" class="btn btn-success mb-5">Submit</button>
-        </form>
+          <div class="col-xl-6 col-lg-5 col-md-12">
+
+            <!-- Contact form -->
+            <form>
+              <div class="mb-lg-2 mb-md-2">
+                <label for="exampleInputEmail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp"
+                  placeholder="Enter email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-lg-3 mb-md-2">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Enter name">
+              </div>
+              <div class="mb-lg-3 mb-md-2">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-success mb-5">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 

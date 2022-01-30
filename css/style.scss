@@ -5,7 +5,7 @@ body {
 // Hero section
 .hero-image {
   background-image: url("../img/rachel-coyne-U7HLzMO4SIY-unsplash.jpg");
-  height: 35vw;
+  height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,10 +24,7 @@ body {
   object-fit: cover;
   object-position: center;
 }
-.event {
-  border-left: 1px solid;
-  border-right: 1px solid;
-}
+
 // Contact section image
 .side {
   height: 75%;
