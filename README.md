@@ -38,20 +38,20 @@
     - [x] Event price
   - [x] 1 subsection with contact form
   - [x] Footer
-- [ ] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
+- [x] Implement Responsive Design (Bootstrap or Media Queries/FlexGrid/FlexBox)
   - [x] Bands subsections 
     - [x] lg: 3 cols
-    - [ ] md: 2 cols
+    - [x] md: 2 cols
     - [x] sm/xs: 1 col
   - [x] Contact section
     - [x] lg: 2 cols
     - [x] md: 1 col with picture on top
-    - [ ] sm: 1 col with no picture
+    - [x] sm: 1 col with no picture
 
 ### Design Bonus
-- [ ] Create review page with customer reviews
-  - [ ] Design complementing the index page
-  - [ ] Accessible from index page (navbar/footer)
+- [x] Create review page with customer reviews
+  - [x] Design complementing the index page
+  - [x] Accessible from index page (navbar/footer)
 
 ## JavaScript
 - [x] Create 9 variables for each band prices (input manually)
@@ -75,6 +75,6 @@
 - [x] Format documents in Visual Studio Code
 - [x] Push files to GitHub repository
 - [x] Send repository link through LMS
-- [ ] Invite codefactorygit as collaborator
+- [x] Invite codefactorygit as collaborator
 
-Work time: hrs
+Work time: 20:30 hrs
