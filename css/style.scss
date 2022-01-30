@@ -1,3 +1,9 @@
+// FontAwesome
+@import url('../fonts/fontawesome.css');
+@import url('../fonts/regular.css');
+@import url('../fonts/solid.css');
+
+// Navbar offset
 body {
   padding-top: 60px;
 }
@@ -11,7 +17,7 @@ body {
   background-size: cover;
 }
 // FontAwesome icons
-.fas {
+.hero-image .fas {
   color:green;
 }
 // Main Content
